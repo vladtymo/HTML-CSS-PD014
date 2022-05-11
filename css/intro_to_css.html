@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <style>
+        /* Styles */
+        /* CSS Selector template: 
+            selector {
+                property1: value;
+                property2: value;
+            }
+        */
+
+        /* Tag selector */
+        h2 {
+            color: red;
+            background-color: black;
+            font-size: 22px;
+        }
+
+        p {
+            color: gray;
+        }
+
+        /* Class selector */
+        .serif {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .sans-serif {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .monospace {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .cursive {
+            font-family: cursive;
+        }
+
+        .fantasy {
+            font-family: fantasy;
+        }
+
+        .styled {
+            color: aqua;
+            background-color: blue;
+            font-size: 20px;
+            text-align: center;
+            line-height: 40px;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        .important-text {
+            font-weight: bold;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS (Cascading Style Sheets)</h1>
+    <!-- Emmet: h2{Text Block $}*3 -->
+
+    <h2>Formatting with tags</h2>
+    <p>Lorem <strong>dolor</strong> sit amet <b>consectetur</b>, adipisicing elit. Deleniti unde cum laudantium dolorem
+        adipisci earum
+        repellat recusandae, esse tempore officia numquam provident tempora. Adipisci nihil quis, unde quaerat tenetur
+        ducimus.</p>
+
+    <!-- Inline styles -->
+    <h2 style="color: rgb(104, 32, 193); font-size: 32px; background-color: aquamarine;">Inline styles</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam ipsa iusto mollitia quod atque, blanditiis
+        esse unde aspernatur molestias porro eos dolor exercitationem fugiat officiis aliquid laboriosam labore, aperiam
+        magni!</p>
+
+    <hr>
+
+    <h2>Font Family types</h2>
+
+    <h3 class="serif">serif font</h3>
+    <p class="serif">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error esse similique porro expedita
+        tenetur voluptates
+        nulla ullam necessitatibus ad illo corrupti accusamus debitis quae dolor odit, ex architecto minima quas!</p>
+
+    <h3 class="sans-serif">sans-serif font</h3>
+    <p class="sans-serif">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error esse similique porro expedita
+        tenetur voluptates
+        nulla ullam necessitatibus ad illo corrupti accusamus debitis quae dolor odit, ex architecto minima quas!</p>
+
+    <h3 class="monospace">monospace font</h3>
+    <p class="monospace">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error esse similique porro expedita
+        tenetur voluptates
+        nulla ullam necessitatibus ad illo corrupti accusamus debitis quae dolor odit, ex architecto minima quas!</p>
+
+    <h3 class="cursive">cursive font</h3>
+    <p class="cursive">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error esse similique porro expedita
+        tenetur voluptates
+        nulla ullam necessitatibus ad illo corrupti accusamus debitis quae dolor odit, ex architecto minima quas!</p>
+
+    <h3 class="fantasy">fantasy font</h3>
+    <p class="fantasy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error esse similique porro expedita
+        tenetur voluptates
+        nulla ullam necessitatibus ad illo corrupti accusamus debitis quae dolor odit, ex architecto minima quas!</p>
+
+    <hr>
+    <h2>Text Properties</h2>
+    <p class="styled">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, expedita quo, adipisci optio
+        <span class="important-text">doloribus saepe</span>
+        temporibus enim culpa molestias repellat maxime error veniam ab in, fuga nemo dolor facere quidem?
+    </p>
+</body>
+
+</html>
